@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Open code</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>W & N</h1>
+
+  <div class="top-bar">
+    <select class="news-category">
+      <option value="general">General</option>
+      <option value="technology">Technology</option>
+      <option value="sports">Sports</option>
+      <option value="business">Business</option>
+      <option value="health">Health</option>
+      <option value="entertainment">Entertainment</option>
+      <option value="science">Science</option>
+    </select>
+    <input type="text" class="news-search-input" placeholder="Search News Topic" />
+    <button class="news-search-btn">🔍</button>
+  </div>
+
+  <div class="app-container">
+    <div class="weather-card">
+      <div class="search-bar">
+        <input type="text" class="cityinput" placeholder="Search City" />
+        <button class="searchbtn">🔍</button>
+      </div>
+      <div class="location-date">
+        <div class="country-txt">City</div>
+        <div class="date-txt">Date</div>
+      </div>
+      <div class="current-weather">
+        <div class="icon">🌩️</div>
+        <div class="temp-text">--°C</div>
+        <div class="condition-text">Condition</div>
+      </div>
+      <div class="details">
+        <div>
+          <div>💧 Humidity</div>
+          <div class="humidity-value-text">--%</div>
+        </div>
+        <div>
+          <div>🌬️ Wind Speed</div>
+          <div class="wind-speed-text">-- km/h</div>
+        </div>
+      </div>
+      <div class="forecast"></div>
+    </div>
+
+    <div class="main-news">
+      <h2>News</h2>
+      <div class="featured-news"></div>
+    </div>
+  </div>
+
+  <div class="news-grid"></div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
+
