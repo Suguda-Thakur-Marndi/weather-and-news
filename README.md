@@ -26,8 +26,8 @@ This is a simple and responsive web app that shows current weather information a
 
 ## API Keys
 
-- Weather API: `bf563bf355144c7598d173452252605`
-- News API: `061a4b778a8deff7eccefe313760da2e`
+- Weather API:
+- News API: 
 
 ## Author
 
