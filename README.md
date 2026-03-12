@@ -1,7 +1,7 @@
 # Weather & News Dashboard
 
 This is a simple and responsive web app that shows current weather information and the latest news headlines. The weather is shown based on the city you search, and news can be searched by keyword or category.
-
+website link-https://suguda-thakur-marndi.github.io/weather-and-news/
 ## Features
 
 - Real-time weather for any city
